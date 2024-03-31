@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Button,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} from "react-native";
+import { Button, ScrollView, Text, TextInput, View } from "react-native";
 import Constants from "expo-constants";
 import io from "socket.io-client";
 
@@ -69,12 +62,3 @@ export default function App() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
